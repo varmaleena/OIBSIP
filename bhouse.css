@@ -1,0 +1,146 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto',sans-serif;
+
+}
+
+body
+{
+    width: 100%;
+    height:120vh;
+    background-image:url("mback.png");
+    background-position: center;
+    background-size: cover;
+    padding-left: :8%;
+    padding-right:8%;
+    box-sizing:border-box;
+
+}
+.navbar
+{
+    height:12%;
+    display: flex;
+    align-items: center;
+}
+.menuicon
+{
+    width:30px;
+    cursor:pointer;
+    margin-right: 40px;
+}
+nav{
+    flex:1;
+    text-align: left;
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text decoration:none;
+    color:#fff;
+    font-size:13px;
+
+}
+.row
+{
+    display:flex;
+    height:88%;
+    align-items:center;
+}
+.col
+{
+    flex-basis: 50%;
+}
+h1{
+    color:gold;
+    font-size: 75px;
+
+}
+p{
+    color: floralwhite;
+    font-size: 15px;
+    line-height: 15px;
+}
+button{
+    width:100px;
+    height:min-content;
+    color:chocolate;
+    font-size: 12px;
+    padding: 10px;
+    background: #fff;
+    border:0;
+    border-radius:10px;
+    outline:none;
+    margin:top;
+    
+
+
+}
+.card
+{
+    width:200px;
+    height:230px;
+    display:inline-block;
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing: border-box;
+    margin:10px 15px;
+    
+    background-image: url("bmusic.png");
+    background-position: center;
+    background-size: cover;
+    float:right;
+    
+}
+
+.card1
+{
+    width:200px;
+    height:230px;
+    display:inline-block;
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing: border-box;
+    margin:10px 15px;
+    
+    background-image: url("tmusic.png");
+    background-position: center;
+    background-size: cover;
+    float:right;
+    
+}
+.card2
+{
+    width:200px;
+    height:230px;
+    display:inline-flex;
+    border-radius: 10px;
+    
+    box-sizing: border-box;
+    margin:10px 15px;
+    background-image: url("hmusic.png");
+    background-position: center;
+    background-size: cover;
+    padding:15px 25px;
+    float:right;
+   
+}
+.card3
+{
+    width:200px;
+    height:230px;
+    display:inline-block;
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing: border-box;
+    margin:10px 15px;
+    background-image: url("kmusic.png");
+    background-position: center;
+    background-size: cover;
+    float:right;
+    
+}
